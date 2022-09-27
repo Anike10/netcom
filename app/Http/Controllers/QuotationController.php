@@ -18,10 +18,10 @@ class QuotationController extends Controller
     public function index(Request $request)
     {
 
-$project             =   $request->project  ;
+$projects             =   1  ;
 
 
-return view('from.quotation')->with('project', $project )        ;
+return view('form.quotation')->with('project', $project )        ;
 
     }
 

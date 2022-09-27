@@ -18,6 +18,7 @@ use App\Http\Controllers\NewStaffPaymentController;
 use App\Http\Controllers\ShowStaffBalanceDetailsController;
 use App\Http\Controllers\NewProjectController;
 use App\Http\Controllers\ShowProjectsController;
+use App\Http\Controllers\QuotationController;
 
 
 use Illuminate\Support\Facades\Route;
